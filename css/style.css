@@ -1,0 +1,60 @@
+/* fix voor ie10 op windowsphone */
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+/* einde fix */
+
+h1 {
+color: #FFFFFF;
+font-family: Impact, Charcoal, sans-serif;
+margin: 5px;
+}
+
+h2 {
+color: #36CFC8;
+font-family: Impact, Charcoal, sans-serif;
+margin: 5px;
+}
+
+a {
+color: #FFFFFF;
+font-family: Century Gothic, sans-serif;
+}
+
+body {
+heigth: 100vh;
+}
+
+.jumbotron {
+background-image: url(http://i.imgur.com/czPljAt.png);
+background-size: cover;
+}
+
+.tagline {
+color: #333333;
+font-family: Century Gothic, sans-serif;
+}
+
+.highlight {
+color: #36CFC8;
+font-family: Century Gothic, sans-serif;
+}
+
+.nav-item {
+padding: 5px;
+}
+
+.navbar {
+background-color: #36CFC8;
+position: fixed;
+top: 0;
+left: 0;
+}
+
+.button {
+background-color: #36CFC8;
+padding: 5px; 
+border: solid 2px grey;
+}
