@@ -28,13 +28,15 @@ heigth: 100vh;
 }
 
 .jumbotron {
-background-image: url(http://i.imgur.com/czPljAt.png);
+background-color: #FFFFFF;
 background-size: cover;
+heigth: 100vh;
 }
 
 .tagline {
 color: #333333;
 font-family: Century Gothic, sans-serif;
+margin: 5px;
 }
 
 .highlight {
@@ -47,7 +49,7 @@ padding: 5px;
 }
 
 .navbar {
-background-color: #36CFC8;
+background-color: #C0C1C1;
 position: fixed;
 top: 0;
 left: 0;
@@ -57,4 +59,9 @@ left: 0;
 background-color: #36CFC8;
 padding: 5px; 
 border: solid 2px grey;
+width: 200px;
+}
+
+.navbar a {
+text-size: 2em;
 }
