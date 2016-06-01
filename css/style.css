@@ -45,12 +45,16 @@ heigth: 90vh;
 height: 90vh;
 }
 
+.content-block {
+height: 90vh;
+}
+
 .tagline {
 color: #333333;
 font-family: Century Gothic, sans-serif;
 margin: 5px;
 position: absolute;
-bottom: 80px;
+bottom: 22vh;
 }
 
 .highlight {
@@ -83,7 +87,7 @@ border: solid 2px grey;
 width: 180px;
 height: 60px;
 position: absolute;
-bottom: 10px;
+bottom: 10vh;
 }
 
 .navbar a {
