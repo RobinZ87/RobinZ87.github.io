@@ -9,7 +9,8 @@
 h1 {
 color: #FFFFFF;
 font-family: Impact, Charcoal, sans-serif;
-margin: 5px;
+margin: 10px;
+font-size: 3em;
 }
 
 h2 {
@@ -21,10 +22,12 @@ margin: 5px;
 a {
 color: #FFFFFF;
 font-family: Century Gothic, sans-serif;
+padding: 5px;
 }
 
 body {
 heigth: 100vh;
+margin-top: 15px;
 }
 
 .jumbotron {
@@ -45,11 +48,12 @@ font-family: Century Gothic, sans-serif;
 }
 
 .nav-item {
-padding: 5px;
+padding: 15px;
 }
 
 .navbar {
-background-color: #B8B8B81;
+display: inline;
+background-color: #B8B8B8;
 position: fixed;
 top: 0;
 left: 0;
@@ -60,8 +64,11 @@ background-color: #36CFC8;
 padding: 10px; 
 border: solid 2px grey;
 width: 180px;
+height: 60px;
+position: absolute;
+bottom: 10px;
 }
 
 .navbar a {
-text-size: 1.875em;
+font-size: 1.875em;
 }
