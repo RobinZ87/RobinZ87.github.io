@@ -63,6 +63,12 @@ font-family: Century Gothic, sans-serif;
 padding: 15px;
 }
 
+.nav-item p {
+color: #FFFFFF;
+font-family: Century Gothic, sans-serif;
+padding: 5px;
+}
+
 .navbar {
 display: inline;
 background-color: #B8B8B8;
@@ -77,6 +83,9 @@ padding: 10px;
 border: solid 2px grey;
 width: 180px;
 height: 60px;
+}
+
+.button-link {
 position: absolute;
 bottom: 10px;
 }
@@ -86,9 +95,8 @@ font-size: 1.25em;
 }
 
 .coverimage {
-/*position: absolute;
-bottom: 10px;*/
-height: 80vh;
+height: 70vh;
+margin-top: 10vh;
 width: auto;
 float: right;
 z-index: -1;
