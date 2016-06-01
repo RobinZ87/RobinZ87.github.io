@@ -11,12 +11,17 @@ color: #FFFFFF;
 font-family: Impact, Charcoal, sans-serif;
 margin: 10px;
 font-size: 3em;
+float: left;
 }
 
 h2 {
 color: #B8b8b8;
 font-family: Impact, Charcoal, sans-serif;
-margin: 5px;
+margin: 25px;
+font-size: 4em;
+position: absolute;
+bottom: 40%;
+z-index: 9;
 }
 
 a {
@@ -25,21 +30,28 @@ font-family: Century Gothic, sans-serif;
 padding: 5px;
 }
 
-body {
-heigth: 100vh;
-margin-top: 15px;
+body, html {
+heigth: 90vh;
+min-height: 90vh;
+padding-top: 15px;
 }
 
 .jumbotron {
 background-color: #FFFFFF;
 background-size: cover;
-heigth: 100vh;
+heigth: 90vh;
+}
+
+.jumbotron .container {
+height: 90vh;
 }
 
 .tagline {
 color: #333333;
 font-family: Century Gothic, sans-serif;
 margin: 5px;
+position: absolute;
+bottom: 80px;
 }
 
 .highlight {
@@ -70,5 +82,14 @@ bottom: 10px;
 }
 
 .navbar a {
-font-size: 1.875em;
+font-size: 1.5em;
+}
+
+.coverimage {
+/*position: absolute;
+bottom: 10px;*/
+height: 80vh;
+width: auto;
+float: right;
+z-index: -1;
 }
