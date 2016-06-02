@@ -176,6 +176,12 @@ margin-top: 20px;
 }
 
 .icon {
-	height: 20px;
-	width: 20px;
+	height: 35px;
+	width: 35px;
+	float: left;
+	margin: 0 10px 0 10px;
+}
+
+.IN-widget {
+	margin-left: 10px;
 }
