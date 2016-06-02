@@ -83,12 +83,22 @@ left: 0;
 
 .button {
 background-color: #36CFC8;
+text-align: center;
 padding: 10px; 
 border: solid 2px grey;
 width: 180px;
 height: 60px;
 position: absolute;
 bottom: 10vh;
+}
+
+.button-highlight {
+background-color: #b8b8b8;
+font-color: #36CFC8;
+}
+
+.button-highlight p {
+font-color: #36CFC8;
 }
 
 .navbar a {
