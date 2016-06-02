@@ -33,6 +33,10 @@ color: #FFFFFF;
 font-family: Century Gothic, sans-serif;
 }
 
+a:hover {
+text-decoration: none;
+}
+
 body, html {
 heigth: 90vh;
 min-height: 90vh;
