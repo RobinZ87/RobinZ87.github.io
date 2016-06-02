@@ -7,12 +7,6 @@ $(this).toggleClass("button-highlight");
 });
 
 $(document).ready(function() {
-$("img").click(function() {
-$(this).remove();
-});
-});
-
-$(document).ready(function() {
 $("h2").hover(function() {
 $(this).css("color","#36CFC8");
 }, function() {

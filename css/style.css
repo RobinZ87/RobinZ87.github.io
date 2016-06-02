@@ -14,6 +14,10 @@ font-size: 3em;
 float: left;
 }
 
+a h1 {
+font-family: Impact, Charcoal, sans-serif;
+}
+
 h2 {
 color: #b8b8b8;
 font-family: Impact, Charcoal, sans-serif;
