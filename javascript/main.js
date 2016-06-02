@@ -29,3 +29,7 @@ $(this).css("color","#36CFC8");
 $(this).css("color","#ffffff");
 });
 });
+
+$(document).ready(function() {
+	$(".msg-box").resizable();
+});

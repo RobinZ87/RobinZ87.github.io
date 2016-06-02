@@ -21,11 +21,8 @@ font-family: Impact, Charcoal, sans-serif;
 h2 {
 color: #b8b8b8;
 font-family: Impact, Charcoal, sans-serif;
-margin: 25px;
-font-size: 4em;
-position: absolute;
-bottom: 40%;
-z-index: 9;
+margin: 15px;
+font-size: 1.875em;
 }
 
 a {
@@ -122,13 +119,25 @@ float: right;
 z-index: -1;
 }
 
+.coder {
+color: #b8b8b8;
+font-family: Impact, Charcoal, sans-serif;
+margin: 25px;
+font-size: 4em;
+position: absolute;
+bottom: 40%;
+z-index: 9;
+}
+
 .name-box {
 width:80%;
 float: left;
+border: 1px solid #b8b8b8;
 }
 
 .msg-box {
 width:80%;
 float: left;
 height: 40%;
+border: 1px solid #b8b8b8;
 }
