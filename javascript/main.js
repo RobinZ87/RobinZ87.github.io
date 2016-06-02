@@ -1,6 +1,25 @@
 var main = function () {
-$(.button).hover(function () {
-$(.button).css() };
-{$(.button)	
+
+$("h2").hover(function () {
+$(this).css("font-color","#36CFC8");
+}
+,function() {
+$(this).css("font-color","#b8b8b8");	
+};
+
+$(".nav-item").hover(function() {
+$(this).css("background-color","#36CFC8");
+}
+,function() {
+$(this).css("background-color","#b8b8b8");
+};
+
+$(".button").hover(function() {
+$(this).addClass("button-highlight");
+}
+,function() {
+$(this).removeClass("button-highlight");
+};
+
 };
 $(document).ready(main);
