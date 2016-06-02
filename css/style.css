@@ -109,14 +109,18 @@ position: absolute;
 bottom: 10vh;
 }
 
+.button p {
+	color: #ffffff;
+}
+
 .button-highlight {
 background-color: #e5e5e5 !important;
 color: #36CFC8;
 border: solid 2px #36CFC8 !important;
 }
 
-.button-highlight a {
-color: #36CFC8;
+.button-highlight p {
+color: #36CFC8 !important;
 }
 
 .navbar a {
