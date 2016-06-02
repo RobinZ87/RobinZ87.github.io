@@ -25,6 +25,18 @@ margin: 15px;
 font-size: 1.875em;
 }
 
+h3 {
+color: #b8b8b8;
+font-family: Impact, Charcoal, sans-serif;
+margin: 15px;
+font-size: 1.875em;
+}
+
+p {
+	font-family: Century Gothic, sans-serif;
+	color: #333333;
+}
+
 a {
 color: #FFFFFF;
 font-family: Century Gothic, sans-serif;
@@ -119,7 +131,7 @@ float: right;
 z-index: -1;
 }
 
-.coder {
+#coder {
 color: #b8b8b8;
 font-family: Impact, Charcoal, sans-serif;
 margin: 25px;
@@ -129,15 +141,32 @@ bottom: 40%;
 z-index: 9;
 }
 
+.table-headers {
+	margin-top: 20px;
+	color: #333333;
+}
+
 .name-box {
 width:80%;
+height: 30px;
 float: left;
 border: 1px solid #b8b8b8;
+margin-top: 20px;
 }
 
 .msg-box {
 width:80%;
 float: left;
-height: 40%;
+height: 120px;
 border: 1px solid #b8b8b8;
+margin-top: 20px;
+}
+
+.mail {
+	color: #000000;
+	text-decoration: none;
+}
+
+.contact-data {
+	margin: 5px 5px 5px 15px;
 }
