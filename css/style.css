@@ -121,3 +121,14 @@ width: auto;
 float: right;
 z-index: -1;
 }
+
+.name-box {
+width:80%;
+float: left;
+}
+
+.msg-box {
+width:80%;
+float: left;
+height: 40%;
+}
