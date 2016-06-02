@@ -15,6 +15,14 @@ $(this).css("color","#b8b8b8");
 });
 
 $(document).ready(function() {
+$("h3").hover(function() {
+$(this).css("color","#36CFC8");
+}, function() {
+$(this).css("color","#b8b8b8");
+});
+});
+
+$(document).ready(function() {
 $(".nav-item").hover(function() {
 $(this).css("background-color","#36CFC8");
 }, function() {
