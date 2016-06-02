@@ -52,6 +52,20 @@ min-height: 90vh;
 padding-top: 15px;
 }
 
+label {
+	font-family: Century Gothic, sans-serif;
+	color: #333333;
+}
+
+input {
+	font-family: Century Gothic, sans-serif;
+	color: #333333;	
+}
+
+td {
+	margin: 5px;
+}
+
 .jumbotron {
 background-color: #FFFFFF;
 background-size: cover;
@@ -186,4 +200,11 @@ background-color: #ffffff;
 
 .IN-widget {
 	margin-left: 10px;
+}
+
+.submit {
+	color: #ffffff;
+	font-family: Century Gothic, sans-serif;
+	border: 0px;
+	background-color: #36CFC8;
 }
