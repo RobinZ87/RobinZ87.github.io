@@ -27,3 +27,11 @@ $(this).css("background-color","#36CFC8");
 $(this).css("background-color","#b8b8b8");
 });
 });
+
+$(document).ready(function() {
+$("h1").hover(function() {
+$(this).css("color","#36CFC8");
+}, function() {
+$(this).css("color","#ffffff");
+});
+});

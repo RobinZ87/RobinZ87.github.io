@@ -93,8 +93,9 @@ bottom: 10vh;
 }
 
 .button-highlight {
-background-color: #b8b8b8 !important;
+background-color: #e5e5e5 !important;
 color: #36CFC8;
+border: solid 4px #36CFC8 !important;
 }
 
 .button-highlight a {
