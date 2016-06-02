@@ -7,6 +7,14 @@ $(this).toggleClass("button-highlight");
 });
 
 $(document).ready(function() {
+$(".send-button").hover(function () {
+$(this).toggleClass("button-highlight");
+}, function() {
+$(this).toggleClass("button-highlight");
+});
+});
+
+$(document).ready(function() {
 $("h2").hover(function() {
 $(this).css("color","#36CFC8");
 }, function() {

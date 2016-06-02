@@ -208,3 +208,18 @@ background-color: #ffffff;
 	border: 0px;
 	background-color: #36CFC8;
 }
+
+.send-button {
+background-color: #36CFC8;
+text-align: center;
+padding: 10px; 
+border: solid 2px grey;
+width: 180px;
+height: 60px;
+float: left;
+margin-top: 20px;
+}
+
+.send-button p {
+	color: #ffffff;
+}
