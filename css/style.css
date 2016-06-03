@@ -200,6 +200,12 @@ td {
 	padding: 5px;
 }
 
+.portfolio-pic {
+	height: auto;
+	width: 60%;
+	border: 5px solid #b8b8b8;
+}
+
 .send-button {
 	background-color: #36CFC8;
 	text-align: center;
@@ -236,9 +242,9 @@ td {
 }
 
 .text-block {
-	align: center;
+	text-align: center;
 }
 
 .text-header {
-	align: center;
+	text-align: center;
 }
