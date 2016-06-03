@@ -147,13 +147,14 @@ td {
 }
 
 .jumbotron {
-	background-color: #FFFFFF;
+	background-image: url("/images/wood.jpg");
 	background-size: cover;
 	height: 90vh;
 }
 
 .jumbotron .container {
 	height: 90vh;
+	background-color: #ffffff;
 }
 
 .mail {
