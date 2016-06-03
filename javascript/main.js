@@ -47,5 +47,9 @@ $(this).css("color","#ffffff");
 });
 
 $(document).ready(function() {
-	$(".msg-box").resizable();
+$(".portfolio-pic").hover(function() {
+$(this).css("border","5px solid #36CFC8");
+}, function() {
+$(this).css("border","5px solid #b8b8b8");
+});
 });

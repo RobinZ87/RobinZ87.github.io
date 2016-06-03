@@ -201,9 +201,12 @@ td {
 }
 
 .portfolio-pic {
+	display: block;
 	height: auto;
 	width: 60%;
 	border: 5px solid #b8b8b8;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .send-button {
