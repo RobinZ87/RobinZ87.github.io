@@ -190,6 +190,14 @@ background-color: #ffffff;
 	margin: 5px 5px 5px 15px;
 }
 
+.contact-form {
+	min-width:260px;
+	width:400px;
+	height:640px;
+	border:none;
+	margin-top: -35px;
+}
+
 .icon {
 	height: 35px;
 	width: 35px;
@@ -222,3 +230,9 @@ margin-top: 20px;
 .send-button p {
 	color: #ffffff;
 }
+
+.input-group textarea {
+	color: ##333333;
+	font-family: Century Gothic, sans-serif;
+}
+
