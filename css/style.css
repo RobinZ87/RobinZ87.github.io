@@ -101,6 +101,13 @@ td {
 	color: #ffffff;
 }
 
+.center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
 .contact-data {
 	margin: 5px 5px 5px 15px;
 }
@@ -113,8 +120,10 @@ td {
 	margin-top: -35px;
 }
 
-.content-block {
-	height: 90vh;
+@media (min-width: 700px) {
+	.content-block {
+		height: 90vh;
+	}
 }
 
 .coverimage {
@@ -146,15 +155,31 @@ td {
 	margin-left: 10px;
 }
 
+.job-title {
+	color: #b8b8b8;
+	font-size: 1em;
+	margin-top: 10px;
+}
+
 .jumbotron {
 	background-image: url("/images/wood.jpg");
 	background-size: cover;
-	height: 90vh;
+}
+
+@media (min-width: 700px) {
+	.jumbotron {
+		height: 90vh;
+}	
 }
 
 .jumbotron .container {
-	height: 90vh;
 	background-color: #ffffff;
+}
+
+@media (min-width: 700px) {
+	.jumbotron .container {
+		height: 90vh;
+	}
 }
 
 .mail {
@@ -193,6 +218,12 @@ td {
 .nav-item {
 	padding: 15px 0 15px 0;
 	text-align: center;
+}
+
+@media (max-width: 700) {
+	.nav-item {
+		display: none;
+	}
 }
 
 .nav-item p {
@@ -249,6 +280,7 @@ td {
 
 .text-block {
 	text-align: center;
+	max-width: 80%;
 }
 
 .text-header {
