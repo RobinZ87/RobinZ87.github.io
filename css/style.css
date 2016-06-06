@@ -122,7 +122,7 @@ td {
 
 @media (min-width: 700px) {
 	.content-block {
-		height: 90vh;
+		min-height: 90vh;
 	}
 }
 
@@ -157,18 +157,21 @@ td {
 
 .job-title {
 	color: #b8b8b8;
-	font-size: 1em;
+	text-align: center;
+	font-size: 1.5em;
 	margin-top: 10px;
+	font-family: Century Gothic, sans-serif;
 }
 
 .jumbotron {
 	background-image: url("/images/wood.jpg");
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 @media (min-width: 700px) {
 	.jumbotron {
-		height: 90vh;
+		min-height: 90vh;
 }	
 }
 
@@ -178,7 +181,7 @@ td {
 
 @media (min-width: 700px) {
 	.jumbotron .container {
-		height: 90vh;
+		min-height: 90vh;
 	}
 }
 
@@ -279,7 +282,8 @@ td {
 }
 
 .text-block {
-	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 	max-width: 80%;
 }
 
