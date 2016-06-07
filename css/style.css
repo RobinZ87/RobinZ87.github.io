@@ -84,7 +84,13 @@ td {
 }
 
 @media (min-width: 975px) { 
-	.hamburger .cross .hamburger-menu .nav-item .mobile-content {
+	.cross {
+		display: none !important;
+	}
+}
+
+@media (min-width: 975px) { 
+	.hamburger {
 		display: none !important;
 	}
 }
@@ -98,6 +104,12 @@ td {
 	}
 }
 
+@media (min-width: 975px) { 
+	.hamburger-menu {
+		display: none !important;
+	}
+}
+
 @media (min-width: 975px) {
 	.jumbotron {
 		min-height: 100vh;
@@ -107,6 +119,18 @@ td {
 @media (min-width: 975px) {
 	.jumbotron .container {
 		min-height: 95vh;
+	}
+}
+
+@media (min-width: 975px) { 
+	.nav-item {
+		display: none !important;
+	}
+}
+
+@media (min-width: 975px) { 
+	.mobile-content {
+		display: none !important;
 	}
 }
 
@@ -188,6 +212,7 @@ td {
 
 .half-block {
 	min-height: 45vh;
+	margin-top: 85px;
 }
 
 .hamburger-menu {
