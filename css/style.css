@@ -149,8 +149,9 @@ td {
 .cross {
 		display: block;
 		float: right;
-		height: 4vh;
+		height: 6vh;
 		width: auto;
+		margin-top: 10px;
 }
 
 @media (min-width:975px) { 
@@ -163,8 +164,9 @@ td {
 	.hamburger {
 		display: block;
 		float: right;
-		height: 4vh;
+		height: 6vh;
 		width: auto;
+		margin-top: 10px;
 	}
 }
 
@@ -174,6 +176,12 @@ td {
 	font-family: Century Gothic, sans-serif;
 	padding: 5px;
 	background-color: #b8b8b8;
+}
+
+@media (min-width: 975px) {
+	.hamburger-menu {
+		display: none;
+	}
 }
 
 .highlight {
