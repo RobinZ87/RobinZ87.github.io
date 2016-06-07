@@ -186,6 +186,10 @@ td {
 		width: auto;
 }
 
+.half-block {
+	min-height: 45vh;
+}
+
 .hamburger-menu {
 	text-align: center;
 	color: #FFFFFF;
