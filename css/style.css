@@ -22,7 +22,6 @@ a:hover {
 body, html {
 	height: 100vh;
 	min-height: 100vh;
-	padding-top: 15px;
 }
 
 h1 {
@@ -107,6 +106,13 @@ td {
 	margin-right: auto;
 }
 
+.center .IN-widget {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 366px;
+}
+
 @media (max-width: 700px) {
 	.col-md-2 {
 		display: none;
@@ -173,7 +179,8 @@ td {
 	background-size: cover;
 	background-attachment: fixed;
 	margin-bottom: 0px;
-	padding: 0px;
+	padding-top: 0px;
+	padding-bottom: 30px;
 }
 
 @media (min-width: 700px) {
@@ -296,4 +303,8 @@ td {
 
 .text-header {
 	text-align: center;
+}
+
+.top-header {
+	margin-top: 80px;
 }
