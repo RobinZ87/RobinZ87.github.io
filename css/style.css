@@ -147,7 +147,10 @@ td {
 }
 
 .cross {
-	float:right;
+		display: block;
+		float: right;
+		height: 4vh;
+		width: auto;
 }
 
 @media (min-width:975px) { 
@@ -160,6 +163,8 @@ td {
 	.hamburger {
 		display: block;
 		float: right;
+		height: 4vh;
+		width: auto;
 	}
 }
 
