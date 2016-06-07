@@ -15,15 +15,7 @@ $(this).toggleClass("button-highlight");
 });
 
 $(document).ready(function() {
-$("h2").hover(function() {
-$(this).css("color","#36CFC8");
-}, function() {
-$(this).css("color","#b8b8b8");
-});
-});
-
-$(document).ready(function() {
-$("h3").hover(function() {
+$("h2, h3").hover(function() {
 $(this).css("color","#36CFC8");
 }, function() {
 $(this).css("color","#b8b8b8");
@@ -51,5 +43,12 @@ $(".portfolio-pic").hover(function() {
 $(this).css("border","5px solid #36CFC8");
 }, function() {
 $(this).css("border","5px solid #b8b8b8");
+});
+});
+
+$(document).ready(function() {
+$(".hamburger, .cross").click(function() {
+$(".hamburger, .cross").toggleClass("invis");
+$(".hamburger-menu").toggleClass("invis");
 });
 });

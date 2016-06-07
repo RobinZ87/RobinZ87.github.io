@@ -107,13 +107,14 @@ td {
 }
 
 .center .IN-widget {
-	display: block;
+	display: block !important;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 20px;
 	width: 366px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 975px) {
 	.col-md-2 {
 		display: none;
 	}
@@ -131,7 +132,7 @@ td {
 	margin-top: -35px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 975px) {
 	.content-block {
 		min-height: 90vh;
 	}
@@ -143,6 +144,31 @@ td {
 	width: auto;
 	float: right;
 	z-index: -1;
+}
+
+.cross {
+	float:right;
+}
+
+@media (min-width:975px) { 
+	.hamburger {
+		display: none;
+	}
+}
+
+@media (max-width: 975px) {
+	.hamburger {
+		display: block;
+		float: right;
+	}
+}
+
+.hamburger-menu {
+	text-align: center;
+	color: #FFFFFF;
+	font-family: Century Gothic, sans-serif;
+	padding: 5px;
+	background-color: #b8b8b8;
 }
 
 .highlight {
@@ -160,6 +186,10 @@ td {
 .input-group textarea {
 	color: ##333333;
 	font-family: Century Gothic, sans-serif;
+}
+
+.invis {
+	display: none !important;
 }
 
 .IN-widget {
@@ -183,7 +213,7 @@ td {
 	padding-bottom: 30px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 975px) {
 	.jumbotron {
 		min-height: 100vh;
 }	
@@ -193,7 +223,7 @@ td {
 	background-color: #ffffff;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 975px) {
 	.jumbotron .container {
 		min-height: 95vh;
 	}
@@ -237,7 +267,7 @@ td {
 	text-align: center;
 }
 
-@media (max-width: 700) {
+@media (max-width: 975) {
 	.nav-item {
 		display: none;
 	}
@@ -306,5 +336,5 @@ td {
 }
 
 .top-header {
-	margin-top: 80px;
+	margin-top: 85px;
 }
