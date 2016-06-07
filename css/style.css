@@ -65,6 +65,52 @@ td {
 	margin: 5px;
 }
 
+@media (max-width: 975px) {
+	.col-md-2 {
+		display: none;
+	}
+}
+
+@media (min-width: 975px) {
+	.content-block {
+		min-height: 90vh;
+	}
+}
+
+@media (max-width: 975px) {
+	.content-block {
+		display: none !important;
+	}
+}
+
+@media (min-width:975px) { 
+	.hamburger .cross .hamburger-menu .nav-item .mobile-content {
+		display: none !important;
+	}
+}
+
+@media (max-width: 975px) {
+	.hamburger {
+		display: block;
+		float: right;
+		height: 70%;
+		width: auto;
+		
+	}
+}
+
+@media (min-width: 975px) {
+	.jumbotron {
+		min-height: 100vh;
+	}	
+}
+
+@media (min-width: 975px) {
+	.jumbotron .container {
+		min-height: 95vh;
+	}
+}
+
 #coder {
 	color: #b8b8b8;
 	font-family: Impact, Charcoal, sans-serif;
@@ -114,12 +160,6 @@ td {
 	width: 366px;
 }
 
-@media (max-width: 975px) {
-	.col-md-2 {
-		display: none;
-	}
-}
-
 .contact-data {
 	margin: 5px 5px 5px 15px;
 }
@@ -130,12 +170,6 @@ td {
 	height:640px;
 	border:none;
 	margin-top: -35px;
-}
-
-@media (min-width: 975px) {
-	.content-block {
-		min-height: 90vh;
-	}
 }
 
 .coverimage {
@@ -149,25 +183,8 @@ td {
 .cross {
 		display: block;
 		float: right;
-		height: 6vh;
+		height: 70%;
 		width: auto;
-		margin-top: 10px;
-}
-
-@media (min-width:975px) { 
-	.hamburger {
-		display: none;
-	}
-}
-
-@media (max-width: 975px) {
-	.hamburger {
-		display: block;
-		float: right;
-		height: 6vh;
-		width: auto;
-		margin-top: 10px;
-	}
 }
 
 .hamburger-menu {
@@ -176,12 +193,6 @@ td {
 	font-family: Century Gothic, sans-serif;
 	padding: 5px;
 	background-color: #b8b8b8;
-}
-
-@media (min-width: 975px) {
-	.hamburger-menu {
-		display: none;
-	}
 }
 
 .highlight {
@@ -226,26 +237,20 @@ td {
 	padding-bottom: 30px;
 }
 
-@media (min-width: 975px) {
-	.jumbotron {
-		min-height: 100vh;
-}	
-}
 
 .jumbotron .container {
 	background-color: #ffffff;
-}
-
-@media (min-width: 975px) {
-	.jumbotron .container {
-		min-height: 95vh;
-	}
 }
 
 .mail {
 	color: #000000;
 	text-decoration: none;
 }
+
+.menu-box {
+	padding: 5px;
+}
+
 .msg-box {
 	width:80%;
 	float: left;
@@ -278,12 +283,6 @@ td {
 .nav-item {
 	padding: 15px 0 15px 0;
 	text-align: center;
-}
-
-@media (max-width: 975) {
-	.nav-item {
-		display: none;
-	}
 }
 
 .nav-item p {
