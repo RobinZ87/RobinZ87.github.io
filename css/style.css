@@ -101,6 +101,7 @@ td {
 		float: right;
 		height: 50px;
 		width: auto;
+		margin-top: 5px;
 	}
 }
 
@@ -110,11 +111,11 @@ td {
 	}
 }
 
-@media (min-width: 975px) {
+/* @media (min-width: 975px) {
 	.jumbotron {
 		min-height: 100vh;
 	}	
-}
+} */
 
 @media (min-width: 975px) {
 	.jumbotron .container {
@@ -122,7 +123,7 @@ td {
 	}
 }
 
-@media (min-width: 975px) { 
+@media (max-width: 975px) { 
 	.nav-item {
 		display: none !important;
 	}
@@ -190,7 +191,7 @@ td {
 .contact-form {
 	min-width:260px;
 	width:500px;
-	height:640px;
+	height:500px;
 	border:none;
 	margin-top: -35px;
 }
@@ -221,6 +222,19 @@ td {
 	font-family: Century Gothic, sans-serif;
 	padding: 5px;
 	background-color: #b8b8b8;
+	float: right;
+}
+
+.hamburger-menu-item {
+	padding: 15px 0 15px 0;
+	text-align: center;
+	float: right;
+}
+
+.hamburger-menu-item p {
+	color: #FFFFFF;
+	font-family: Century Gothic, sans-serif;
+	padding: 5px;
 }
 
 .highlight {
@@ -263,8 +277,8 @@ td {
 	margin-bottom: 0px;
 	padding-top: 0px;
 	padding-bottom: 30px;
+	min-height: 100vh;
 }
-
 
 .jumbotron .container {
 	background-color: #ffffff;
@@ -277,6 +291,14 @@ td {
 
 .menu-box {
 	padding: 5px;
+}
+
+.mobile-coverimage {
+	height: 40vh;
+	margin-top: 10px;
+	width: auto;
+	float: right;
+	z-index: -1;
 }
 
 .msg-box {
@@ -358,6 +380,12 @@ td {
 	margin: 5px;
 	position: absolute;
 	bottom: 22vh;
+}
+
+.tag-mobile {
+	color: #333333;
+	font-family: Century Gothic, sans-serif;
+	margin: 5px;	
 }
 
 .table-headers {
