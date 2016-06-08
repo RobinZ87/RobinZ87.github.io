@@ -71,6 +71,18 @@ td {
 	}
 }
 
+@media (max-width: 300px) {
+	.contact-data {
+		font-size: 1.1em;
+	}
+}
+
+@media (max-width: 975px) {
+	.contact-form {
+		width: 100%;
+	}
+}
+
 @media (min-width: 975px) {
 	.content-block {
 		min-height: 90vh;
@@ -147,6 +159,12 @@ td {
 	}
 }
 
+@media (max-width: 400px) {
+	p {
+		font-size: 1.15em !important;
+	}
+}
+
 #coder {
 	color: #b8b8b8;
 	font-family: Impact, Charcoal, sans-serif;
@@ -217,7 +235,7 @@ td {
 }
 
 .contact-form {
-	min-width:260px;
+	min-width:160px;
 	width:500px;
 	height:500px;
 	border:none;
