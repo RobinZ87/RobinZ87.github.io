@@ -65,6 +65,12 @@ td {
 	margin: 5px;
 }
 
+@media (max-width: 500px) {
+	.button-mobile {
+		display: none;
+	}
+}
+
 @media (max-width: 975px) {
 	.col-md-2 {
 		display: none;
@@ -168,6 +174,13 @@ td {
 @media (max-width: 400px) {
 	p {
 		font-size: 1.15em !important;
+		text-align: justify;
+	}
+}
+
+@media (max-width: 400px) {
+	.top-header{
+		margin-top: 50px;
 	}
 }
 
@@ -220,6 +233,7 @@ td {
 
 .button-mobile p {
 	color: #ffffff;
+	font-size: 1.25em;
 }
 
 .center {
