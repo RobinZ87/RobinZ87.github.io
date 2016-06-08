@@ -117,7 +117,7 @@ td {
 	}
 }
 
-@media (min-width: 975px) {
+@media (max-width: 975px) {
 	.jumbotron {
 		padding-bottom: 0 !important;
 	}	
@@ -166,6 +166,7 @@ td {
 	height: 60px;
 	position: absolute;
 	bottom: 10vh;
+	border-radius: 5px;
 }
 
 .button-mobile {
@@ -175,7 +176,8 @@ td {
 	border: solid 2px grey;
 	width: 180px;
 	height: 60px;
-	float: right;	
+	float: left;
+	border-radius: 5px;	
 }
 
 .button-highlight {
@@ -189,6 +191,10 @@ td {
 }
 
 .button p {
+	color: #ffffff;
+}
+
+.button-mobile p {
 	color: #ffffff;
 }
 
