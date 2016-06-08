@@ -274,7 +274,7 @@ td {
 }
 
 .center .IN-widget {
-	display: block !important;
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 20px;
