@@ -199,6 +199,12 @@ td {
 	}
 }
 
+@media (min-width: 500px) {
+	.mobile-content .button-mobile {
+		display: inline-block;
+	}
+}
+
 @media (max-width: 400px) {
 	.mobile-coverimage {
 		display: none;
