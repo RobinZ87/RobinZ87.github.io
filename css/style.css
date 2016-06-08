@@ -227,7 +227,7 @@ td {
 #coder {
 	color: #b8b8b8;
 	font-family: Impact, Charcoal, sans-serif;
-	margin: 25px;
+	margin: 25px 25px 25px -25px;
 	font-size: 4em;
 	position: absolute;
 	bottom: 40%;
