@@ -71,6 +71,14 @@ td {
 	}
 }
 
+@media(min-width:500px) {
+	.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
 @media (max-width: 975px) {
 	.col-md-2 {
 		display: none;
@@ -165,6 +173,14 @@ td {
 	}
 }
 
+@media (max-width: 500px) {
+	.mobile-center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
 @media (min-width: 975px) { 
 	.mobile-content {
 		display: none !important;
@@ -220,7 +236,8 @@ td {
 	width: 180px;
 	height: 60px;
 	float: left;
-	border-radius: 5px;	
+	border-radius: 5px;
+	margin-bottom: 10px;	
 }
 
 .button-highlight {
@@ -243,12 +260,6 @@ td {
 	color: #ffffff;
 	font-size: 1.25em;
 	text-align: center;
-}
-
-.center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .center .IN-widget {
