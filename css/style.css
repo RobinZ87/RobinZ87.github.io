@@ -155,6 +155,12 @@ td {
 	}
 }
 
+@media (min-width: 500px) {
+	.IN-widget {
+		display: block !important;
+	}
+}
+
 @media (max-width: 975px) {
 	.jumbotron {
 		padding-bottom: 0 !important;
