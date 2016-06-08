@@ -77,6 +77,12 @@ td {
 	}
 }
 
+@media(max-width: 500px) {
+	.contform {
+		display: none;
+	}
+}
+
 @media (max-width: 975px) {
 	.contact-form {
 		width: 100%;
