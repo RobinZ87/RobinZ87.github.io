@@ -79,6 +79,12 @@ td {
 	}
 }
 
+@media (max-width: 500px) {
+	.center .IN-widget {
+		display: none !important;
+	}
+}
+
 @media (max-width: 975px) {
 	.col-md-2 {
 		display: none;
@@ -241,7 +247,6 @@ td {
 	border: solid 2px grey;
 	width: 180px;
 	height: 60px;
-	float: left;
 	border-radius: 5px;
 	margin-bottom: 10px;	
 }
@@ -306,6 +311,10 @@ td {
 		height: 30px;
 		width: auto;
 		margin-top: 15px;
+}
+
+.floatleft {
+	float: left;
 }
 
 .half-block {
