@@ -65,7 +65,7 @@ td {
 	margin: 5px;
 }
 
-@media (max-width: 500px) {
+@media (min-width: 500px) {
 	.button-mobile {
 		display: none;
 	}
