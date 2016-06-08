@@ -322,6 +322,10 @@ td {
 	padding: 5px;
 }
 
+.mobile-content {
+	min-height: 100vh;
+}
+
 .mobile-coverimage {
 	height: 50vh;
 	margin-top: 10px;
