@@ -163,7 +163,7 @@ td {
 
 @media (min-width: 500px) {
 	.IN-widget {
-		display: block;
+		display: block !important;
 	}
 }
 
