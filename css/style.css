@@ -141,6 +141,12 @@ td {
 	}
 }
 
+@media (max-width: 500px) {
+	.IN-widget {
+		display: none !important;
+	}
+}
+
 @media (max-width: 975px) {
 	.jumbotron {
 		padding-bottom: 0 !important;
@@ -225,15 +231,18 @@ td {
 
 .button-highlight p {
 	color: #36CFC8 !important;
+	text-align: center;
 }
 
 .button p {
 	color: #ffffff;
+	text-align: center;
 }
 
 .button-mobile p {
 	color: #ffffff;
 	font-size: 1.25em;
+	text-align: center;
 }
 
 .center {
