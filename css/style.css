@@ -33,14 +33,14 @@ h1 {
 }
 
 h2 {
-	color: #b8b8b8;
+	color: #999999;
 	font-family: Impact, Charcoal, sans-serif;
 	margin: 15px;
 	font-size: 1.875em;
 }
 
 h3 {
-	color: #b8b8b8;
+	color: #999999;
 	font-family: Impact, Charcoal, sans-serif;
 	margin: 15px;
 	font-size: 1.875em;
@@ -225,7 +225,7 @@ td {
 }
 
 #coder {
-	color: #b8b8b8;
+	color: #999999;
 	font-family: Impact, Charcoal, sans-serif;
 	margin: 25px 25px 25px -25px;
 	font-size: 4em;
@@ -375,9 +375,9 @@ td {
 }
 
 .job-title {
-	color: #b8b8b8;
+	color: #36cfc8;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 1.875em;
 	margin-top: 10px;
 	font-family: Century Gothic, sans-serif;
 }
@@ -497,6 +497,7 @@ td {
 	margin: 5px;
 	position: absolute;
 	bottom: 22vh;
+	z-index: 999;
 }
 
 .tag-mobile {
