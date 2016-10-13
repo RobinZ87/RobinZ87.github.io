@@ -450,6 +450,7 @@ td {
 .nav-item {
 	padding: 15px 0 15px 0;
 	text-align: center;
+	border-radius: 15px;
 }
 
 .nav-item p {
